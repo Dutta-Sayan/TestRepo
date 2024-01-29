@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&family=Roboto:wght@300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+
+
+}
+.wrapper{
+    background: url(./main-slider-img-1.jpg) no-repeat center/cover;
+    height: 740px;
+    /* overflow: hidden; */
+    /* width: 100%; */
+    /* color:white; */
+    
+    font-family: 'Roboto', sans-serif;
+    /* position: relative; */
+}
+i{
+    /* color: white */
+}
+a:hover{
+    cursor: pointer;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.header-wrapper{
+    position:fixed;
+    width: 100%;
+    z-index: 2;
+}
+.top-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    font-weight: 100;
+}
+.top-header, .browse-header{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9em;
+    background-color: rgba(164, 164, 164, 0.439);
+    color: white;
+    /* position: fixed; */
+    /* width: 100%; */
+    /* padding: 10px 0px; */
+}
+.top-header-items p{
+    padding: 20px 30px 20px 0px;
+}
+.contact p{
+    padding-inline: 10px;
+}
+.top-header-items .item, .social{
+    border: solid;
+    border-width: 0px 0.5px 0px 0px;
+    border-color: rgba(255, 255, 255, 0.719);
+
+}
+.social-icons{
+    gap: 10px;
+}
+.contact{
+    gap: 180px;
+}
+.top-header{
+    border: solid;
+    border-width: 0px 0px 0.5px 0px;
+    border-color: rgba(255, 255, 255, 0.719);
+}
+.social{
+    padding: 15px 25px;
+    /* padding-left: 0px; */
+}
+.search{
+    /* display: inline-block; */
+    align-items: center;
+}
+.search a{
+    padding: 24px;
+    padding-block: 20px;
+    /* padding-left: 0; */
+}
+.social-icons li{
+    padding: 5px;
+}
+a{
+    color: white;
+}
+/* .top-header a, .browse-header a{
+    color: white;
+} */
+.blue-hover:hover{
+    color:rgb(64, 64, 226);
+}
+.browse-menu, .browse-header-items{
+    align-items: center;
+    /* justify-content: space-between; */
+    /* padding-block: 30px; */
+    text-align: center;
+}
+.logo{
+    margin-right: 25px;
+}
+.browse-menu{
+    /* width: 65%; */
+    /* justify-content: space-between; */
+}
+.browse-menu a{
+    display: inline-block;
+    padding-block: 33px;
+    padding-inline: 27px;
+}
+.btn{
+    font-size: 0.8em;
+    /* width: 215px; */
+    border: 1px solid white;
+    border-radius: 5px;
+    /* padding: 15px 12px; */
+    /* padding-left: 10px; */
+    /* padding-left: 20px; */
+}
+.btn a{
+    display: inline-block;
+    padding: 15px 50px;
+    /* padding-right: 50px; */
+}
+.btn:hover{
+    cursor: pointer;
+}
+.appointment-btn{
+    /* width: 251px; */
+    margin-left: 17px;
+}
+.appointment-btn:hover{
+    background-color: rgb(139, 227, 253);
+    border-color: rgb(139, 227, 253);
+}
+/* .browse-container li{
+    position: relative;
+} */
+.browse-container{
+    position: relative;
+}
+.search-bar input{
+
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+
+}
+.search-bar{
+    display: none;
+    position: absolute;
+    right: 0;
+}
+.banner-text{
+    font-family: 'Montserrat', sans-serif;
+}
+.banner-text h1{
+    font-size: 72px;
+    margin-top: 30px;
+}
+.banner-text p{
+    font-size: 42px;
+}
+.departments-btn, .contact-btn{
+    display: inline-block;
+    font-size: 0.8em;
+    /* width: 180px; */
+    /* padding: 20px 12px; */
+    text-align: center;
+    margin-right: 12px;
+    margin-top: 30px;
+}
+
+/* .departments-btn:hover{
+    background-color: rgb(84, 161, 238);
+    color: white;
+} */
+.banner, .banner .container{
+    height: inherit;
+}
+.wrapper{
+    position: relative;
+}
+.banner-info{
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    /* left: 12%; */
+    /* transform: translateY(-50%); */
+    /* padding-top: 100px; */
+    /* padding-left: 10px; */
+    /* padding-bottom: 200px; */
+    /* position: relative; */
+}
+/* .banner .btn:hover{
+    background-color: rgb(84, 161, 238);
+    border-color: rgb(84, 161, 238);
+} */
+.banner-info{
+    color: white;
+}
+.departments-btn a, .timetable-btn a{
+    color: rgb(84, 161, 238);
+    /* font-weight: 400px; */
+}
+.departments-btn{
+    background-color: white;
+}
+.departments-btn:hover, .contact-btn:hover{
+    background-color: rgb(59, 128, 196);
+    border-color: rgb(59, 128, 196);
+    /* color: white; */
+}
+.departments-btn:hover a{
+    color: white;
+}
+.contact-btn:hover{
+    
+}
+/* .contact-btn a{
+    color: white;
+} */
+.clinic-timing-info{
+    justify-content: space-between;
+    background-color: white;
+    padding: 30px;
+    font-weight: lighter;
+    line-height: 1.75;
+    border-bottom: 8px solid rgb(95, 197, 252);
+}
+.clinic-timing-info .item{
+    width: 28%;
+}
+.time{
+    float: right;
+    color: rgb(59, 128, 196);
+}
+.clinic-timing-info p:first-child{
+    margin-bottom: 20px;
+    color: rgb(59, 128, 196);
+    font-weight: 400;
+    font-size: 25px;
+}
+.day{
+    border-bottom: 1px solid rgba(206, 204, 204, 0.557);
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.timetable-btn{
+    border-color: rgb(59, 128, 196);
+    text-align: center;
+    color: rgb(59, 128, 196);
+    margin-top: 20px;
+}
+.timetable-btn i{
+    margin-right: 10px;
+}
+.clinic-timing{
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    /* bottom: -10px; */
+    bottom: -280px;
+}
+.emergency-contact h2{
+    font-size: 35px;
+    font-weight: 400;
+}
+.emergency-contact i{
+    color: rgb(59, 128, 196);
+    margin-right: 10px;
+}
+.menu-items{
+    justify-content: space-between;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    background-color: white;
+}
+.card{
+    width: 15%;
+    padding: 40px;
+    text-align: center;
+}
+.expanded-menu{
+    display: none;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+.browse-header-items{
+    /* justify-content: space-between; */
+}
+.browse-header a:hover{
+    color: rgb(73, 148, 223);
+}
+/* .browse-header a:hover .expanded-menu{
+    display: block;
+} */
+.expanded-menu{
+    color: black;
+}

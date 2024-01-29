@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&family=Montserrat:wght@100;300;500&family=Poppins:wght@200;300;400;600;700&family=Roboto:wght@300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    /* justify-content: space-between; */
+}
+a{
+    display: inline-block;
+    color: white;
+}
+ .nav-bar-items{
+    justify-content: space-between;
+}
+
+.header, .nav-bar{
+    background-color: rgba(164, 164, 164, 0.439);
+    color: white;
+    font-family: 'Lato';
+    /* position: fixed; */
+}
+/* .head-wrapper{
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+} */
+.header{
+    border-bottom: 1px solid rgba(201, 200, 200, 0.648);
+    font-size: 16px;
+    font-weight: 100;
+    position: absolute;
+    width: 100%;
+    z-index:15;
+    /* position: fixed; */
+}
+.header-items{
+    align-items: center;
+}
+.header-items a{
+    padding-inline: 5px;
+    padding-block: 12px;
+}
+.contacts{
+    /* gap: 110px; */
+    width: 55%;
+    border-right: 1px solid rgba(201, 200, 200, 0.648);
+    border-left: 1px solid rgba(201, 200, 200, 0.648);
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+.email{
+    /* padding-right: 150px; */
+    /* width: 70%; */
+}
+.search{
+    border-right: 1px solid rgba(201, 200, 200, 0.648);
+    border-left: 1px solid rgba(201, 200, 200, 0.648);
+}
+.social a{
+    padding-inline: 10px;
+}
+.address{
+    padding-right: 20px;
+}
+.search a{
+    padding-inline: 17px;
+}
+.header .container{
+    position: relative;
+}
+.search-bar{
+    position: absolute;
+    /* right: 9%; */
+    right: 0;
+    padding: 10px;
+    width: 500px;
+    display: none;
+    z-index: 100;
+    /* background-color: white; */
+}
+.nav-bar{
+    position: absolute;
+    width: 100%;
+    top: 45px;
+    z-index: 4;
+}
+.nav-bar .container{
+    position: relative;
+}
+
+.submenu ul{
+    width: 1200px;
+    /* width: 1200px;
+    margin: auto; */
+    background-color: white;
+    position: absolute;
+    flex-wrap: wrap;
+    right: 50%;
+    transform: translateX(50%);
+    /* right: -20%; */
+    justify-content: space-between;
+    padding-block: 20px;
+}
+.submenu{
+    display: none;
+}
+.dept:hover .submenu{
+    display: block;
+}
+.submenu li{
+    width: 15%;
+}
+.submenu a{
+    margin:10px 0px 20px 0px;
+}
+.submenu a:hover{
+    box-shadow: 0px 0px 40px rgba(130, 130, 130, 0.466);
+    /* box-shadow: ; */
+    /* transform: translate(0,-5px); */
+}
+.header a:hover{
+    color: rgb(60, 60, 196);
+}
+.nav-bar{
+    font-size: 18px;
+}
+.nav-bar-items{
+    align-items: center
+}
+.nav-bar-items a{
+    /* padding:11px 19px; */
+}
+.nav-menu a{
+    padding-block: 35px;
+    padding-inline: 20px;
+    /* font-size: 12px; */
+}
+.submenu a{
+    padding-inline: 20px;
+    padding-block: 25px;
+    color: black;
+}
+.nav-menu a:hover{
+    color: rgb(80, 234, 245);
+}
+.black{
+    color: black;
+    display: block;
+}
+.btn{
+    /* padding-block: 15px;
+    padding-inline: 40px; */
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Lato';
+    font-size: 12px;
+    
+}
+.appointment-btn{
+    /* margin-left: 7px; */
+    padding-block: 17px;
+    padding-inline: 43px;
+    /* padding-left: 60px; */
+}
+.appointment-btn:hover{
+    background-color: rgb(80, 234, 245);
+    border-color: rgb(80, 234, 245);
+}
+.header-items{
+    justify-content: space-between;
+}
+.nav-bar-items{
+    /* justify-content: flex-start; */
+}
+.logo a{
+    padding-left: 0px;
+    /* padding-right: 40px; */
+}
+.banner{
+    height: 700px;
+    font-family: 'Montserrat', sans-serif;
+    background: url(./main-slider-img-1.jpg) no-repeat center/cover;
+}
+.banner .container{
+    height: inherit;
+    position: relative;
+}
+.banner-info{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+}
+.banner-info h1{
+    font-size: 68px;
+    font-weight: bold;
+}
+.banner-info p{
+    font-size: 44px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.banner-info a{
+    /* padding-inline: 15px; */
+    margin-right: 10px;
+}
+.dept-btn, .contact-btn{
+    font-family: 'Lato';
+    font-size: 12px;
+    padding: 18px 30px;
+}
+.dept-btn{
+    background-color: white;
+    color:rgb(42, 147, 201);
+}
+.dept-btn:hover{
+    background-color: rgb(42, 147, 201);
+    border-color: rgb(42, 147, 201);
+    color: white;
+}
+.contact-btn:hover{
+    background-color:rgb(42, 147, 201);
+    border-color: rgb(42, 147, 201);
+}
+.day{
+    padding-bottom: 15px;
+}
+.clinic-info p{
+    /* display: inline-block; */
+}
+.time{
+    float: right;
+}
+.clinic-info{
+    position: absolute;
+    bottom: -35%;
+    background-color: white;
+    justify-content: space-between;
+}
+.clinic-info-item{
+    width: 34%;
+    padding: 36px;
+    font-family: 'Lato';
+}
+.timings{
+    border-bottom: 7px solid rgb(143, 202, 249);
+}
+.timetable{
+    border-bottom: 7px solid rgb(105, 162, 209);
+}
+.emergency-contact{
+    border-bottom: 7px solid rgb(70, 125, 170);
+}
+.clinic-info-item h2{  
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(42, 147, 201);
+    margin-bottom: 20px;
+}
+.emergency-contact a{
+    color: black;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.timetable p, .emergency-contact p{
+    font-weight: 300;
+}
+.timings p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.emergency-contact i, .time, .timetable a{
+    color: rgb(42, 147, 201);
+}
+.timetable a{
+    padding: 12px 25px;
+    font-size: 12px;
+    margin-top: 25px;
+    border: 1px solid rgb(42, 147, 201);
+    border-radius: 5px;
+}
+.timetable a:hover{
+    color: white;
+    background-color: rgb(42, 147, 201);
+    border-color: rgb(42, 147, 201);
+}
+.timetable i{
+    padding-right: 10px;
+}
+.emergency-contact i{
+    margin-right: 10px;
+}
+.day{
+    padding-block: 20px;
+    border-bottom: 1px solid rgba(169, 169, 169, 0.263);
+}
+.blank{
+    height: 500px;
+}
+.day p{}
+/* .timetable a{
+    color: 
+} */
